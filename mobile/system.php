@@ -1693,7 +1693,7 @@ require_once('../config.php');
             // Instanciar mapa 'leafletMap'
             leafletMap = L.map('mapid', {
                 center: [-12.006571, -77.057929],
-                zoom: 12,
+                zoom: 7,
             });
 
             layer = L.esri.basemapLayer('Physical').addTo(leafletMap);
