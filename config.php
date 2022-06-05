@@ -1,9 +1,9 @@
 <?php
 
     $general    = array(
-        'titulo_web'            => 'Emtrafesa',
+        'titulo_web'            => 'NombreWeb',
         'llave_sitio'           => 'bmlzaWdwczE=',
-        'cuenta_asociada'       => 'emtrafesa',
+        'cuenta_asociada'       => 'account',
         'instancia_tomcat'      => 'Track?',
         'api_google_maps'       => 'AIzaSyBEPCRDO0w_ELCdi8JmvdmGF3VbZS6SPqA',
         'enlace_plataforma'     => 'http://gpsfenix.net:8080/track/Track?',
@@ -12,26 +12,26 @@
     );
 
     $empresa    = array(
-        'desarrollador'         => 'Aguila Control',
-        'web_desarrollador'     => 'https://www.aguilacontrol.com',
-        'whatsapp'              => '51961086587'
+        'desarrollador'         => 'otaneRocraM',
+        'web_desarrollador'     => 'https://www.beltren.dev',
+        'whatsapp'              => '15484000051'
     );
 
     $database   = array(
         'hostname'  => '127.0.0.1',
         'username'  => 'gts',
-        'password'  => 'R3RAZDEzMSo=',
+        'password'  => 'password',
         'database'  => 'gts',
-        'port'      => 2534
+        'port'      => 3305
     );
 
     $mailDetails = array(
-        'hostname'      => "mail.servidorgpsalerta.com",
-        'username'      => "alertas@servidorgpsalerta.com",
-        'password'      => 'paul10203040',
+        'hostname'      => "mail.mailserver.com",
+        'username'      => "alertas@mailserver.com",
+        'password'      => 'password',
         'port'          => 25,
         'fromName'      => "Reporte de BUS",
-        'fromEmail'     => "alertas@servidorgpsalerta.com",
+        'fromEmail'     => "alertas@mailserver.com",
         'subject'       => "Notificacion automatica del BUS",
         'replayEmail'   => "sistemas@aguilacontrol.com",
         'toEmail'       => "sistemas@aguilacontrol.com",
